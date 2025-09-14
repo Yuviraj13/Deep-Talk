@@ -10,7 +10,7 @@ import Chat from "@/models/Chat";
 
 // Initialize OpenAI client with DeepSeek API key and base URL
 const openai = new OpenAI({
-  baseURL: "https://openrouter.ai/settings/keys",
+  baseURL: "openrouter.ai/deepseek/deepseek-chat-v3-0324:free/api",
   apiKey: process.env.DEEPSEEK_API_KEY,
 });
 
