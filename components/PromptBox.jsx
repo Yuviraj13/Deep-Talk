@@ -50,10 +50,8 @@ const PromptBox = ({ isLoading, setIsLoading }) => {
       );
 
       // Saving user prompt in selected  chat
-      setSelectedChat((prev) => ({
-        ...prev,
-        messages: [...prev.messages, userPrompt],
-      }));
+      const [selectedChat, setSelectedChat] =
+      useState({messages: []})
 
       const { data } = await axios.post("/api/chat/ai", {
         chatId: selectedChat._id,
