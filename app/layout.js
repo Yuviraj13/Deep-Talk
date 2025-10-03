@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Deep Talk",
-  description: "Full Stack Project",
+  title: "DeepTalk AI",
+  description: "Full Stack Personal AI Chat Application",
 };
 
 export default function RootLayout({ children }) {

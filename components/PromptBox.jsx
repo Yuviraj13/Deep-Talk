@@ -117,7 +117,7 @@ const PromptBox = ({ isLoading, setIsLoading }) => {
         onKeyDown={handleKeyDown}
         className="outline-none w-full resize-none overflow-hidden break-words bg-transparent"
         rows={2}
-        placeholder="Message DeepTalk AI"
+        placeholder="Message DeepTalk "
         required
         onChange={(e) => setPrompt(e.target.value)}
         value={prompt}
@@ -125,19 +125,19 @@ const PromptBox = ({ isLoading, setIsLoading }) => {
 
       <div className="flex items-center justify-between text-sm">
         <div className="flex items-center gap-2">
-          {/* <p className="flex items-center gap-2 text-xs border border-gray-300/40 px-2 py-1 rounded-full cursor-pointer hover:bg-gray-500/20 transition">
+          <p className="flex items-center gap-2 text-xs border border-gray-300/40 px-2 py-1 rounded-full cursor-pointer hover:bg-gray-500/20 transition">
             <Image
               className="h-5"
               src={assets.deepthink_icon}
               alt="deepthink"
             />
             DeepThink (R1)
-          </p> */}
+          </p>
 
-          {/* <p className="flex items-center gap-2 text-xs border border-gray-300/40 px-2 py-1 rounded-full cursor-pointer hover:bg-gray-500/20 transition">
+          <p className="flex items-center gap-2 text-xs border border-gray-300/40 px-2 py-1 rounded-full cursor-pointer hover:bg-gray-500/20 transition">
             <Image className="h-5" src={assets.search_icon} alt="search" />
             Search
-          </p> */}
+          </p>
         </div>
 
         <div className="flex items-center gap-2">

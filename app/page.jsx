@@ -4,8 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { assets } from "@/assets/assets";
 import Sidebar from "@/components/Sidebar";
-import PromptBox from "@/components/PromptBox";
-import Message from "@/components/Message";
+import PromptBox from "@/components/PromptBox";import Message from "@/components/Message";
 import { useAppContext } from "@/context/AppContext";
 
 export default function Home() {
